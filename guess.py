@@ -1,6 +1,8 @@
 import random
 
-r = random.randint(1, 100)
+min = int(input('請決定隨機數字範圍開始值'))
+max = int(input('請決定隨機數字範圍結束值'))
+r = random.randint(min, max)
 i = 0
 
 while True:
